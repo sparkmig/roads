@@ -1,0 +1,94 @@
+caercas,fairfield;braeme
+duerlin,edlin;halried
+edlin,fairfield;duerlin
+fairfield,edlin;caercas;bheline
+calrie,halried
+halried,calrie;duerlin
+aerele,duene;ciliene
+ciliene,city of anuire;moere;aerele
+duene,alamier;aerele
+moere,endier;ciliene;anuire
+ilien,braeme
+alamier,braeme;duene
+braeme,caercas;ilien;alamier
+bacaele,seasedge;portage
+calant,rivien;seasedge
+dhalaese,monsedge;rivien
+rivien,dhalaese;calant
+seasedge,tariene;calant;bacaele
+tariene,seaport;seasedge
+greensward,ice haven;seaport
+ice haven,greensward
+seaport,greensward;tariene
+bindier,marilen;coere
+coere,daulton;bindier
+marilen,brosien;bindier
+bayside,bhaine;portage
+bhaine,bayside;brosien
+brosien,marilen;bhaine
+portage,bacaele;bayside
+anuire,caulnor;moere;city of anuire;daulton
+bhrein,caulnor;duriene
+caulnor,endier;anuire;bhrein
+daulton,anuire;coere
+duriene,nabhriene;bhrein
+achiese,chalsedon;ghalliere;bhalaene
+bhalaene,achiese;bheline;rhumannen;tornilen
+bheline,bhalaene;fairfield
+ghiere,rhumannen;tireste
+rhumannen,bhalaene;tireste;ghiere
+tireste,ghiere;rhumannen;endier
+tornilen,tenarien;bhalaene
+bevaldruor,maesilar;byrnnor
+byrnnor,winoene;bevaldruor;cwlldon
+cwlldon,byrnnor;tenarien
+maesilar,bevaldruor;sendouras
+tenarien,cwlldon;tornilen
+toriens watch,winoene;mhelliviene
+winoene,toriens watch;byrnnor
+haesrien,monsedge;deseirain;nabhriene
+monsedge,haesrien;dhalaese
+nabhriene,haesrien;tuors hold;duriene
+tuors hold,endier;nabhriene
+alaroine,traiward;deseirain
+deseirain,alaroine;haesrien
+maesford,traiward;endier
+traiward,alaroine;maesford
+city of anuire,anuire;ciliene
+ansien,osoeriene;chalsedon
+chalsedon,ansien;achiese;sendouras
+osoeriene,bogsend;moergen;ansien
+sendouras,maesilar;chalsedon
+endier,maesford;tireste;moere;caulnor;tuors hold
+nolien,sonnelind
+ruidewash,sidhuire;riverford;sonnelind
+sidhuire,braethindyr;ruidewash
+sonnelind,ruidewash;nolien
+abattoir,kal saitharak;motile;stones end
+jogh warren,motile
+kal saitharak,abattoir
+motile,jogh warren;abattoir
+stones end,abattoir;dwarfs hold
+braethindyr,cwmbheir;sidhuire
+cwmbheir,braethindyr
+mhelliviene,riverford;toriens watch
+mountainsedge,riverford
+riverford,ruidewash;mountainsedge;mhelliviene;mergarrote
+dwarfs hold,stones end;fallen rock;shattered hills
+shattered hills,dwarfs hold
+crushing rock,fallen rock
+fallen rock,crushing rock;dwarfs hold
+bloodbay,mergarrote;falling timber
+falling timber,bloodbay
+mergarrote,riverford;bloodbay
+brans retreat,rivenrock;deepshadow
+lands victory,promontory
+promontory,rivenrock;lands victory
+rivenrock,promontory;brans retreat
+bogsend,caudraight;ruorven;osoeriene
+caudraight,deepshadow;bogsend
+deepshadow,brans retreat;caudraight
+ruorven,bogsend
+ghalliere,moriel;achiese
+moergen,osoeriene;moriel
+moriel,moergen;ghalliere

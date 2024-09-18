@@ -1,0 +1,22 @@
+Du modtager her en ødelagt csv fil, som indeholder data over, 
+hvilke provinser der fører til hvilke provinser.
+
+Opgave 1:
+Indlæs csv-filen i ram.
+
+Opgave 2:
+Find ud af hvilken type graf der er tale om?
+
+Opgave 3:
+Find ud af, hvilket vejnetværk er det største (flest provinser)
+
+Opgave 4:
+Hvor mange vejnet er der tale om?
+
+Opgave 5:
+Lav en algoritme der finder den korteste rute, mellem to provinser. (Breadth first search)
+
+Optional:
+
+Brug Depth first search til at finde artikuleringspunkter.
+
