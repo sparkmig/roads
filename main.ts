@@ -1,9 +1,16 @@
+import { writeFileSync } from "fs";
 import { findShortestDistance } from "./src/services/bfs";
+import {
+  generateMarkovFromTextFile,
+  Markov,
+  Markov2,
+} from "./src/services/markov";
 import {
   allRoadNetworks,
   findBiggestRoadNetwork,
   readStartRoadFile,
 } from "./src/services/startRoadService";
+import weightedList from "./src/services/weightedList";
 
 const provinces = readStartRoadFile("./StartRoads.csv");
 
@@ -19,3 +26,22 @@ const shortestRoute = findShortestDistance(provinces, from, to);
 console.log("biggest", biggest);
 console.log("All networks", allNetworks);
 console.log(`shortest route from ${from} to ${to}`, shortestRoute);
+
+const wl = weightedList<string>();
+wl.add({
+  item: "rain",
+  adjencyList: [
+    {
+      item: "cloudy",
+      probability: 0.5,
+    },
+    {
+      item: "sunny",
+      probability: 0.5,
+    },
+  ],
+});
+
+const accuarcy = 2;
+const markov = generateMarkovFromTextFile("markov.txt", accuarcy);
+writeFileSync("product.txt", Markov(markov, accuarcy));
