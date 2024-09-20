@@ -27,21 +27,6 @@ console.log("biggest", biggest);
 console.log("All networks", allNetworks);
 console.log(`shortest route from ${from} to ${to}`, shortestRoute);
 
-const wl = weightedList<string>();
-wl.add({
-  item: "rain",
-  adjencyList: [
-    {
-      item: "cloudy",
-      probability: 0.5,
-    },
-    {
-      item: "sunny",
-      probability: 0.5,
-    },
-  ],
-});
-
 const accuarcy = 2;
 const markov = generateMarkovFromTextFile("markov.txt", accuarcy);
 writeFileSync("product.txt", Markov(markov, accuarcy));
